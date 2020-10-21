@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>eu.europa.ec.dg_env.lpd</groupId>
+		<artifactId>lpd</artifactId>
+		<version>2.03</version>
+	</parent>
+	<artifactId>lpd_archive_provider</artifactId>
+	<packaging>war</packaging>
+
+	<name>Land Purchase Database / Archive Provider</name>
+	<description>File provider for GPDataFile parameters of ArcGIS Toolboxes</description>
+
+	<dependencies>
+		<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+		<!-- Application modules ////////////////////////////////////////////////////////////////////////////////// -->
+		<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+		<dependency>
+			<groupId>eu.europa.ec.dg_env.lpd</groupId>
+			<artifactId>lpd_common</artifactId>
+			<version>2.03</version>
+			<scope>compile</scope>
+		</dependency>
+
+		
+		<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+		<!-- Frameworks and libraries ///////////////////////////////////////////////////////////////////////////// -->
+		<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.1</version>
+			<scope>compile</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<finalName>${project.artifactId}</finalName>
+	</build>
+
+<!-- TODO remove this ??? TODO -->
+	<profiles>
+		<profile>
+			<id>jboss-deploy</id>
+			<properties>
+			</properties>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<configuration>
+							<skip>true</skip>
+						</configuration>
+					</plugin>
+					<!-- Deploys war to a local JBoss AS container -->
+					<!-- To use, set the JBOSS_HOME environment variable (or jboss.home in $HOME/.m2/settings.xml) and run: mvn package jboss:hard-deploy -->
+					<plugin>
+						<groupId>org.jboss.as.plugins</groupId>
+						<artifactId>jboss-as-maven-plugin</artifactId>
+						<version>7.1.0.Final</version>
+						<configuration>
+							<hostname>${appserver}</hostname>
+							<!--<hostname>localhost</hostname>-->
+							<port>9999</port>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>default</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+	</profiles>
+
+</project>

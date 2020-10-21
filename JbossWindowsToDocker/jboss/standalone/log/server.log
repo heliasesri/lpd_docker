@@ -1,0 +1,14 @@
+09:51:03,800 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-6) = [RESTORE_VIEW 1] COMPLETED =============================================
+09:51:03,896 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-6) = [RENDER_RESPONSE 6] COMPLETED =============================================
+10:13:16,170 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-2) = [RESTORE_VIEW 1] COMPLETED =============================================
+10:13:16,200 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-2) = [RENDER_RESPONSE 6] COMPLETED =============================================
+10:13:21,479 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-3) = [RESTORE_VIEW 1] COMPLETED =============================================
+10:13:21,486 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-3) = [APPLY_REQUEST_VALUES 2] COMPLETED =============================================
+10:13:21,494 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-3) = [PROCESS_VALIDATIONS 3] COMPLETED =============================================
+10:13:21,497 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-3) = [UPDATE_MODEL_VALUES 4] COMPLETED =============================================
+10:13:21,512 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-3) = [INVOKE_APPLICATION 5] COMPLETED =============================================
+10:13:21,519 WARN  [org.jboss.seam.faces.environment.SeamApplicationWrapper] (http--0.0.0.0-8080-3) Using JSF provided instance, unable to find a BeanManaged instance for class org.primefaces.convert.DateTimeConverter
+10:13:21,741 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-3) = [RENDER_RESPONSE 6] COMPLETED =============================================
+10:14:50,253 INFO  [org.jboss.as.osgi] (MSC service thread 1-6) JBAS011942: Stopping OSGi Framework
+10:14:50,264 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) Pausing Coyote HTTP/1.1 on http--0.0.0.0-8080
+10:14:50,265 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) Stopping Coyote HTTP/1.1 on http--0.0.0.0-8080

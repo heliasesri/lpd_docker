@@ -1,0 +1,1448 @@
+08:11:36,532 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-2) = [RESTORE_VIEW 1] COMPLETED =============================================
+08:11:36,681 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-2) = [RENDER_RESPONSE 6] COMPLETED =============================================
+08:13:13,314 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-5) = [RESTORE_VIEW 1] COMPLETED =============================================
+08:13:13,394 INFO  [JSFPhaseObserver] (http--0.0.0.0-8080-5) = [RENDER_RESPONSE 6] COMPLETED =============================================
+08:13:32,557 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) Pausing Coyote HTTP/1.1 on http--0.0.0.0-8080
+08:13:46,710 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+08:13:46,722 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+08:13:46,713 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+08:13:46,725 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+08:13:46,930 INFO  [org.jboss.as.security] (MSC service thread 1-5) JBAS013100: Current PicketBox version=4.0.6.final
+08:13:46,947 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+08:13:46,958 INFO  [org.jboss.as.connector] (MSC service thread 1-4) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.7.Final)
+08:13:47,031 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
+08:13:47,545 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 4.0)
+08:13:47,699 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Starting Coyote HTTP/1.1 on http--0.0.0.0-8080
+08:13:48,210 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:jboss/datasources/lpd-model]
+08:13:48,283 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) Starting Coyote HTTP/1.1 on http--0.0.0.0-8443
+08:13:50,387 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-4) JBoss Web Services - Stack CXF Server 4.0.1.GA
+08:13:50,834 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory E:\lpd_folder\jboss\standalone\deployments
+08:13:50,868 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on /0.0.0.0:9999
+08:13:50,868 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) JBAS017100: Listening on /0.0.0.0:4447
+08:13:51,044 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.0.Final "Thunder" started in 14279ms - Started 135 of 206 services (70 services are passive or on-demand)
+08:13:51,057 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "lpd_archive_provider2.war"
+08:13:51,057 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "lpd_archive_provider.war"
+08:13:51,057 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "lpd_web.war"
+08:13:51,057 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "lpd_web2.war"
+08:13:54,659 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016002: Processing weld deployment lpd_archive_provider2.war
+08:13:54,824 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment lpd_archive_provider.war
+08:13:54,849 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016005: Starting Services for CDI deployment: lpd_archive_provider2.war
+08:13:55,035 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016005: Starting Services for CDI deployment: lpd_archive_provider.war
+08:13:55,079 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900 1.1.5 (AS71)
+08:13:55,160 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016008: Starting weld service for deployment lpd_archive_provider.war
+08:13:55,193 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016008: Starting weld service for deployment lpd_archive_provider2.war
+08:13:55,494 INFO  [org.jboss.seam.solder.Version] (MSC service thread 1-3) Seam Solder 3.0.0.Final (build id: 3.0.0.Final)
+08:13:55,495 INFO  [org.jboss.seam.solder.Version] (MSC service thread 1-2) Seam Solder 3.0.0.Final (build id: 3.0.0.Final)
+08:13:55,869 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.international.locale.LocaleConfiguration from being installed as bean due to @Veto annotation
+08:13:55,904 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-2) Preventing class org.jboss.seam.international.locale.LocaleConfiguration from being installed as bean due to @Veto annotation
+08:13:56,228 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-2) Preventing class org.jboss.seam.faces.validation.InputElement from being installed as bean due to @Veto annotation
+08:13:56,228 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.faces.validation.InputElement from being installed as bean due to @Veto annotation
+08:13:56,244 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) WELD-000119 Not generating any bean definitions from org.jboss.seam.faces.view.config.SecurityPhaseListener because of underlying class loading error
+08:13:56,251 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.seam.faces.view.config.SecurityPhaseListener because of underlying class loading error
+08:13:56,256 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.faces.view.config.SecurityPhaseListener
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.TypeNotPresentException: Type org.jboss.seam.security.events.AuthorizationCheckEvent not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.repository.FieldRepository.getGenericType(FieldRepository.java:85) [rt.jar:1.7.0_80]
+	at java.lang.reflect.Field.getGenericType(Field.java:237) [rt.jar:1.7.0_80]
+	at org.jboss.weld.introspector.jlr.WeldFieldImpl.of(WeldFieldImpl.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:154) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.seam.security.events.AuthorizationCheckEvent from [Module "deployment.lpd_archive_provider2.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	at java.lang.Class.forName0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.forName(Class.java:278) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) [rt.jar:1.7.0_80]
+	... 29 more
+
+08:13:56,255 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.faces.view.config.SecurityPhaseListener
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.TypeNotPresentException: Type org.jboss.seam.security.events.AuthorizationCheckEvent not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.repository.FieldRepository.getGenericType(FieldRepository.java:85) [rt.jar:1.7.0_80]
+	at java.lang.reflect.Field.getGenericType(Field.java:237) [rt.jar:1.7.0_80]
+	at org.jboss.weld.introspector.jlr.WeldFieldImpl.of(WeldFieldImpl.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:154) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.seam.security.events.AuthorizationCheckEvent from [Module "deployment.lpd_archive_provider.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	at java.lang.Class.forName0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.forName(Class.java:278) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) [rt.jar:1.7.0_80]
+	... 29 more
+
+08:13:56,514 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.transaction.UTTransaction from being installed as bean due to @Veto annotation
+08:13:56,737 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.transaction.SeSynchronizations from being installed as bean due to @Veto annotation
+08:13:56,779 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-2) Preventing class org.jboss.seam.solder.core.VersionLoggerUtil from being installed as bean due to @Veto annotation
+08:13:56,818 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.transaction.CMTTransaction from being installed as bean due to @Veto annotation
+08:13:56,970 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) WELD-000119 Not generating any bean definitions from org.jboss.logging.Log4jLogger because of underlying class loading error
+08:13:57,038 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.transaction.EntityTransaction from being installed as bean due to @Veto annotation
+08:13:57,049 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Log4jLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: org/apache/log4j/Priority
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.apache.log4j.Priority from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:57,165 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-2) Preventing class org.jboss.seam.solder.resourceLoader.ResourceProvider from being installed as bean due to @Veto annotation
+08:13:57,208 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) WELD-000119 Not generating any bean definitions from org.jboss.logging.Slf4jLogger because of underlying class loading error
+08:13:57,213 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Slf4jLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/slf4j/Logger;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.slf4j.Logger from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:57,287 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.persistence.hibernate.HibernateManagedSessionExtensionImpl from being installed as bean due to @Veto annotation
+08:13:57,324 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.transaction.NoTransaction from being installed as bean due to @Veto annotation
+08:13:57,366 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.seam.persistence.hibernate.HibernateManagedSessionProxyHandler because of underlying class loading error
+08:13:57,370 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.persistence.hibernate.HibernateManagedSessionProxyHandler
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/hibernate/Session;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.Session from [Module "deployment.lpd_archive_provider2.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:57,416 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.seam.transaction.HibernateTransaction because of underlying class loading error
+08:13:57,421 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.transaction.HibernateTransaction
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/hibernate/Session;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.Session from [Module "deployment.lpd_archive_provider2.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:57,424 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) WELD-000119 Not generating any bean definitions from org.jboss.logging.Slf4jLocationAwareLogger because of underlying class loading error
+08:13:57,592 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.seam.persistence.HibernatePersistenceProvider because of underlying class loading error
+08:13:57,594 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Slf4jLocationAwareLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/slf4j/spi/LocationAwareLogger;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.slf4j.spi.LocationAwareLogger from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:57,653 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.persistence.HibernatePersistenceProvider
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: org/hibernate/TransientObjectException
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.TransientObjectException from [Module "deployment.lpd_archive_provider2.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:57,744 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.seam.persistence.hibernate.SeamManagedHibernateSessionCreated because of underlying class loading error
+08:13:57,762 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.persistence.hibernate.SeamManagedHibernateSessionCreated
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/hibernate/Session;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.Session from [Module "deployment.lpd_archive_provider2.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:57,792 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-2) Preventing class org.jboss.seam.transaction.UTTransaction from being installed as bean due to @Veto annotation
+08:13:57,819 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.seam.persistence.hibernate.HibernateManagedSessionBeanLifecycle because of underlying class loading error
+08:13:57,819 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-2) Preventing class org.jboss.seam.transaction.SeSynchronizations from being installed as bean due to @Veto annotation
+08:13:57,821 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.persistence.hibernate.HibernateManagedSessionBeanLifecycle
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/hibernate/SessionFactory;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.SessionFactory from [Module "deployment.lpd_archive_provider2.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:57,830 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-2) Preventing class org.jboss.seam.transaction.CMTTransaction from being installed as bean due to @Veto annotation
+08:13:57,857 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-2) Preventing class org.jboss.seam.transaction.EntityTransaction from being installed as bean due to @Veto annotation
+08:13:57,888 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-2) Preventing class org.jboss.seam.persistence.hibernate.HibernateManagedSessionExtensionImpl from being installed as bean due to @Veto annotation
+08:13:57,901 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-2) Preventing class org.jboss.seam.transaction.NoTransaction from being installed as bean due to @Veto annotation
+08:13:57,940 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) WELD-000119 Not generating any bean definitions from org.jboss.seam.persistence.hibernate.HibernateManagedSessionProxyHandler because of underlying class loading error
+08:13:58,058 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.solder.core.VersionLoggerUtil from being installed as bean due to @Veto annotation
+08:13:58,067 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.persistence.hibernate.HibernateManagedSessionProxyHandler
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/hibernate/Session;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.Session from [Module "deployment.lpd_archive_provider.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:58,148 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.logging.Log4jLogger because of underlying class loading error
+08:13:58,167 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Log4jLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: org/apache/log4j/Priority
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.apache.log4j.Priority from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:58,189 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) WELD-000119 Not generating any bean definitions from org.jboss.seam.transaction.HibernateTransaction because of underlying class loading error
+08:13:58,278 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.solder.resourceLoader.ResourceProvider from being installed as bean due to @Veto annotation
+08:13:58,334 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.transaction.HibernateTransaction
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/hibernate/Session;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.Session from [Module "deployment.lpd_archive_provider.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:58,414 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.logging.Slf4jLogger because of underlying class loading error
+08:13:58,430 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) WELD-000119 Not generating any bean definitions from org.jboss.seam.persistence.HibernatePersistenceProvider because of underlying class loading error
+08:13:58,437 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.persistence.HibernatePersistenceProvider
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: org/hibernate/TransientObjectException
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.TransientObjectException from [Module "deployment.lpd_archive_provider.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:58,484 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) WELD-000119 Not generating any bean definitions from org.jboss.seam.persistence.hibernate.SeamManagedHibernateSessionCreated because of underlying class loading error
+08:13:58,490 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.persistence.hibernate.SeamManagedHibernateSessionCreated
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/hibernate/Session;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.Session from [Module "deployment.lpd_archive_provider.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:58,493 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Slf4jLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/slf4j/Logger;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.slf4j.Logger from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:58,834 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) WELD-000119 Not generating any bean definitions from org.jboss.seam.persistence.hibernate.HibernateManagedSessionBeanLifecycle because of underlying class loading error
+08:13:58,842 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-2) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.persistence.hibernate.HibernateManagedSessionBeanLifecycle
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/hibernate/SessionFactory;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.SessionFactory from [Module "deployment.lpd_archive_provider.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:58,847 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.logging.Slf4jLocationAwareLogger because of underlying class loading error
+08:13:58,881 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Slf4jLocationAwareLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/slf4j/spi/LocationAwareLogger;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.slf4j.spi.LocationAwareLogger from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:13:59,209 INFO  [org.jboss.seam.international.status.TypedStatusMessageBundleExtension] (MSC service thread 1-2) Add @MessageBundle to org.jboss.seam.solder.reflection.annotated.AnnotatedTypeBuilder.messages injection point for the type: org.jboss.seam.solder.support.SolderMessages
+08:13:59,297 INFO  [org.jboss.seam.international.status.TypedStatusMessageBundleExtension] (MSC service thread 1-3) Add @MessageBundle to org.jboss.seam.solder.reflection.annotated.AnnotatedTypeBuilder.messages injection point for the type: org.jboss.seam.solder.support.SolderMessages
+08:13:59,427 INFO  [org.jboss.seam.international.status.TypedStatusMessageBundleExtension] (MSC service thread 1-3) Add @MessageBundle to org.jboss.seam.solder.reflection.annotated.AnnotationBuilder.messages injection point for the type: org.jboss.seam.solder.support.SolderMessages
+08:13:59,493 INFO  [org.jboss.seam.international.status.TypedStatusMessageBundleExtension] (MSC service thread 1-2) Add @MessageBundle to org.jboss.seam.solder.reflection.annotated.AnnotationBuilder.messages injection point for the type: org.jboss.seam.solder.support.SolderMessages
+08:13:59,793 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-4) Initializing Mojarra 2.1.5 (SNAPSHOT 20111202) for context '/lpd_archive_provider2'
+08:13:59,803 INFO  [org.jboss.seam.faces.config.FacesServletInitializer] (MSC service thread 1-5) Auto-registering FacesServlet with mappings: [/faces/*, *.jsf, *.faces]
+08:13:59,871 INFO  [org.jboss.web] (MSC service thread 1-5) JBAS018210: Registering web context: /lpd_archive_provider
+08:14:00,620 INFO  [org.hibernate.validator.util.Version] (MSC service thread 1-4) Hibernate Validator 4.2.0.Final
+08:14:01,709 INFO  [org.jboss.web] (MSC service thread 1-4) JBAS018210: Registering web context: /lpd_archive_provider2
+08:14:02,548 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for eu.europa.ec.dg_env.lpd.model
+08:14:02,723 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) JBAS011401: Read persistence.xml for eu.europa.ec.dg_env.lpd.model
+08:14:02,757 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment lpd_web.war
+08:14:02,805 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named BeneficiaryAccessManager in deployment unit deployment "lpd_web.war" are as follows:
+
+	java:global/lpd_web/BeneficiaryAccessManager!eu.europa.ec.dg_env.lpd.service.beneficiary.security.IBeneficiaryAccesManager
+	java:app/lpd_web/BeneficiaryAccessManager!eu.europa.ec.dg_env.lpd.service.beneficiary.security.IBeneficiaryAccesManager
+	java:module/BeneficiaryAccessManager!eu.europa.ec.dg_env.lpd.service.beneficiary.security.IBeneficiaryAccesManager
+	java:global/lpd_web/BeneficiaryAccessManager
+	java:app/lpd_web/BeneficiaryAccessManager
+	java:module/BeneficiaryAccessManager
+
+08:14:02,815 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named DAO in deployment unit deployment "lpd_web.war" are as follows:
+
+	java:global/lpd_web/DAO!com.arhs_dev.persistence.dao.DAO
+	java:app/lpd_web/DAO!com.arhs_dev.persistence.dao.DAO
+	java:module/DAO!com.arhs_dev.persistence.dao.DAO
+	java:global/lpd_web/DAO
+	java:app/lpd_web/DAO
+	java:module/DAO
+
+08:14:02,821 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named DataTableManager in deployment unit deployment "lpd_web.war" are as follows:
+
+	java:global/lpd_web/DataTableManager!eu.europa.ec.dg_env.lpd.service.qc.DataTableManager
+	java:app/lpd_web/DataTableManager!eu.europa.ec.dg_env.lpd.service.qc.DataTableManager
+	java:module/DataTableManager!eu.europa.ec.dg_env.lpd.service.qc.DataTableManager
+	java:global/lpd_web/DataTableManager
+	java:app/lpd_web/DataTableManager
+	java:module/DataTableManager
+
+08:14:02,827 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016002: Processing weld deployment lpd_web2.war
+08:14:02,877 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named BeneficiaryAccessManager in deployment unit deployment "lpd_web2.war" are as follows:
+
+	java:global/lpd_web2/BeneficiaryAccessManager!eu.europa.ec.dg_env.lpd.service.beneficiary.security.IBeneficiaryAccesManager
+	java:app/lpd_web2/BeneficiaryAccessManager!eu.europa.ec.dg_env.lpd.service.beneficiary.security.IBeneficiaryAccesManager
+	java:module/BeneficiaryAccessManager!eu.europa.ec.dg_env.lpd.service.beneficiary.security.IBeneficiaryAccesManager
+	java:global/lpd_web2/BeneficiaryAccessManager
+	java:app/lpd_web2/BeneficiaryAccessManager
+	java:module/BeneficiaryAccessManager
+
+08:14:02,911 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named DAO in deployment unit deployment "lpd_web2.war" are as follows:
+
+	java:global/lpd_web2/DAO!com.arhs_dev.persistence.dao.DAO
+	java:app/lpd_web2/DAO!com.arhs_dev.persistence.dao.DAO
+	java:module/DAO!com.arhs_dev.persistence.dao.DAO
+	java:global/lpd_web2/DAO
+	java:app/lpd_web2/DAO
+	java:module/DAO
+
+08:14:03,140 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016005: Starting Services for CDI deployment: lpd_web2.war
+08:14:03,151 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: lpd_web.war
+08:14:03,151 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011402: Starting Persistence Unit Service 'lpd_web2.war#eu.europa.ec.dg_env.lpd.model'
+08:14:03,164 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011402: Starting Persistence Unit Service 'lpd_web.war#eu.europa.ec.dg_env.lpd.model'
+08:14:03,347 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-1) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+08:14:03,359 INFO  [org.hibernate.Version] (MSC service thread 1-1) HHH000412: Hibernate Core {4.0.1.Final}
+08:14:03,363 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-1) HHH000206: hibernate.properties not found
+08:14:03,366 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-1) HHH000021: Bytecode provider name : javassist
+08:14:03,392 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-3) HHH000204: Processing PersistenceUnitInfo [
+	name: eu.europa.ec.dg_env.lpd.model
+	...]
+08:14:03,394 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-1) HHH000204: Processing PersistenceUnitInfo [
+	name: eu.europa.ec.dg_env.lpd.model
+	...]
+08:14:03,954 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-1) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+08:14:03,956 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-3) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+08:14:04,282 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-3) HHH000400: Using dialect: com.arhs_dev.persistence.dialect.ArhsSQLServer2008Dialect
+08:14:04,282 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-1) HHH000400: Using dialect: com.arhs_dev.persistence.dialect.ArhsSQLServer2008Dialect
+08:14:04,318 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-1) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+08:14:04,318 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-3) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+08:14:04,327 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-3) HHH000397: Using ASTQueryTranslatorFactory
+08:14:04,327 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-1) HHH000397: Using ASTQueryTranslatorFactory
+08:14:04,930 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (MSC service thread 1-1) HHH000229: Running schema validator
+08:14:04,933 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (MSC service thread 1-1) HHH000102: Fetching database metadata
+08:14:04,933 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (MSC service thread 1-3) HHH000229: Running schema validator
+08:14:04,938 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (MSC service thread 1-3) HHH000102: Fetching database metadata
+08:14:04,990 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.DATA_CONTROLLED_PUBLIC
+08:14:04,990 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_CONTROLLED_PUBLIC
+08:14:04,995 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [requestdate, qcresponsible, email, controlledpublicationstatus, lifeprojectnumber, comments]
+08:14:04,995 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [requestdate, qcresponsible, email, controlledpublicationstatus, lifeprojectnumber, comments]
+08:14:05,017 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_DOCUMENTATION
+08:14:05,017 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.DATA_DOCUMENTATION
+08:14:05,020 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, lifeprojectid, description, name, filename, date]
+08:14:05,021 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [id, lifeprojectid, description, name, filename, date]
+08:14:05,038 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.DATA_DOC_CLAUSE
+08:14:05,038 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_DOC_CLAUSE
+08:14:05,041 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [id, documentation, purchase]
+08:14:05,042 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, documentation, purchase]
+08:14:05,059 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_DOC_OWNER
+08:14:05,059 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.DATA_DOC_OWNER
+08:14:05,061 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, owner, documentation]
+08:14:05,063 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [id, owner, documentation]
+08:14:05,080 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.DATA_LIFEPROJECT
+08:14:05,080 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_LIFEPROJECT
+08:14:05,083 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [id, layer, sensitiveflag, number]
+08:14:05,084 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, layer, sensitiveflag, number]
+08:14:05,102 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.DATA_MGMT_RESPONSIBLE
+08:14:05,103 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_MGMT_RESPONSIBLE
+08:14:05,106 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [id, lifeprojectid, name]
+08:14:05,106 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, lifeprojectid, name]
+08:14:05,120 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.DATA_OWNER
+08:14:05,122 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [id, lifeprojectid, name, coowner, legalstatus]
+08:14:05,124 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_OWNER
+08:14:05,127 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, lifeprojectid, name, coowner, legalstatus]
+08:14:05,133 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.DATA_OWNER_PURCHASE
+08:14:05,137 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [purchaseid, ownerid]
+08:14:05,141 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_OWNER_PURCHASE
+08:14:05,142 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [purchaseid, ownerid]
+08:14:05,153 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.DATA_PARCEL
+08:14:05,155 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [landregisternumber, qcstatus, surface, nuts3code, legalsurface, municipality, state, legalsurfaceunit, shape, xmin, xmax, surfaceunit, id, ymin, purchaseid, lifeprojectid, ymax, name, sourceid, src_objectid, qccomment, sensitiveflag, swap, xcentroid, objectid, ycentroid, comments]
+08:14:05,162 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_PARCEL
+08:14:05,163 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [landregisternumber, qcstatus, surface, nuts3code, legalsurface, municipality, state, legalsurfaceunit, shape, xmin, xmax, surfaceunit, id, ymin, purchaseid, lifeprojectid, ymax, name, sourceid, src_objectid, qccomment, sensitiveflag, swap, xcentroid, objectid, ycentroid, comments]
+08:14:05,168 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.DATA_PARCEL_MGMT_RESPONSIBLE
+08:14:05,170 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [parcelid, mgmtresponsibleid]
+08:14:05,181 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_PARCEL_MGMT_RESPONSIBLE
+08:14:05,183 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [parcelid, mgmtresponsibleid]
+08:14:05,188 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.DATA_PURCHASE
+08:14:05,191 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [totalcostcurrency, qcstatus, totalcost, eufund, eufundcurrency, id, notarialactdate, lifeprojectid, name, notarialactnumber, clauselocation, sourceid, qccomment, clause]
+08:14:05,200 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_PURCHASE
+08:14:05,203 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [totalcostcurrency, qcstatus, totalcost, eufund, eufundcurrency, id, notarialactdate, lifeprojectid, name, notarialactnumber, clauselocation, sourceid, qccomment, clause]
+08:14:05,209 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.FOLLOWUP_PARCEL
+08:14:05,211 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [id, lastupdate, parcel, followup]
+08:14:05,217 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.DATA_RESPONSIBLE
+08:14:05,218 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, qcresponsible, lifeprojectnumber]
+08:14:05,225 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.IMPORT_BATCH
+08:14:05,226 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [message, batchdate, exitcode, archivename, number, lifeprojectnumber, stage]
+08:14:05,232 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.FOLLOWUP_PARCEL
+08:14:05,236 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, lastupdate, parcel, followup]
+08:14:05,239 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.IMPORT_SHAPEFILE
+08:14:05,241 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [message, statcount, batchnumber, exitcode, shapefilename]
+08:14:05,247 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.IMPORT_BATCH
+08:14:05,249 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [message, batchdate, exitcode, archivename, number, lifeprojectnumber, stage]
+08:14:05,256 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.IMPORT_SHAPEFILE_FIELD
+08:14:05,258 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [fieldtype, fieldvalue, sequencenumber, batchnumber, rowsequencenumber, fieldname, shapefilename]
+08:14:05,269 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.IMPORT_SHAPEFILE
+08:14:05,271 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [message, statcount, batchnumber, exitcode, shapefilename]
+08:14:05,275 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.IMPORT_SHAPEFILE_ROW
+08:14:05,279 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [surface, nuts3code, sequencenumber, batchnumber, shape, xmin, xmax, shapefileobjectid, shapefilename, ymin, ymax, xcentroid, objectid, ycentroid]
+08:14:05,284 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.IMPORT_SHAPEFILE_FIELD
+08:14:05,285 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [fieldtype, fieldvalue, sequencenumber, batchnumber, rowsequencenumber, fieldname, shapefilename]
+08:14:05,291 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.REF_CLAUSE
+08:14:05,292 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [id, text, year]
+08:14:05,300 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.IMPORT_SHAPEFILE_ROW
+08:14:05,301 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [surface, nuts3code, sequencenumber, batchnumber, shape, xmin, xmax, shapefileobjectid, shapefilename, ymin, ymax, xcentroid, objectid, ycentroid]
+08:14:05,309 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.REF_CLAUSE_LOCATION
+08:14:05,313 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [id, location]
+08:14:05,317 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.REF_CLAUSE
+08:14:05,318 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, text, year]
+08:14:05,324 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.REF_COUNTRY_NUTS
+08:14:05,326 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [id, nutslevel, nuts, country]
+08:14:05,338 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.REF_CLAUSE_LOCATION
+08:14:05,339 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, location]
+08:14:05,345 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.REF_LEGAL_STATUS
+08:14:05,347 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [legalstatus]
+08:14:05,360 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.REF_COUNTRY_NUTS
+08:14:05,362 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, nutslevel, nuts, country]
+08:14:05,368 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.REF_LIFE_PROJECT_NUMBER
+08:14:05,370 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [id, lifeprojectnumber]
+08:14:05,384 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.REF_LEGAL_STATUS
+08:14:05,386 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [legalstatus]
+08:14:05,390 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000261: Table found: lpd_production.dbo.SECURITY_BENEFICIARY_ACCESS
+08:14:05,392 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-1) HHH000037: Columns: [tokenvaliditydate, email, sentnotfication, passwordhash, lifeprojectnumber, lastaccess, activationtoken]
+08:14:05,408 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.REF_LIFE_PROJECT_NUMBER
+08:14:05,412 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id, lifeprojectnumber]
+08:14:05,424 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: lpd_production.dbo.SECURITY_BENEFICIARY_ACCESS
+08:14:05,426 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [tokenvaliditydate, email, sentnotfication, passwordhash, lifeprojectnumber, lastaccess, activationtoken]
+08:14:05,803 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016008: Starting weld service for deployment lpd_web.war
+08:14:05,803 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016008: Starting weld service for deployment lpd_web2.war
+08:14:05,886 INFO  [org.jboss.seam.solder.Version] (MSC service thread 1-3) Seam Solder 3.0.0.Final (build id: 3.0.0.Final)
+08:14:05,887 INFO  [org.jboss.seam.solder.Version] (MSC service thread 1-1) Seam Solder 3.0.0.Final (build id: 3.0.0.Final)
+08:14:06,037 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.web.beneficiary.wizard_step.PurchaseListSupport from being installed as bean due to @Veto annotation
+08:14:06,058 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.web.beneficiary.wizard_step.ParcelListSupport from being installed as bean due to @Veto annotation
+08:14:06,059 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.web.beneficiary.wizard_step.PurchaseListSupport from being installed as bean due to @Veto annotation
+08:14:06,070 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.web.beneficiary.wizard_step.ParcelListSupport from being installed as bean due to @Veto annotation
+08:14:06,465 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.faces.validation.InputElement from being installed as bean due to @Veto annotation
+08:14:06,471 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.seam.faces.view.config.SecurityPhaseListener because of underlying class loading error
+08:14:06,473 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.faces.view.config.SecurityPhaseListener
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.TypeNotPresentException: Type org.jboss.seam.security.events.AuthorizationCheckEvent not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.repository.FieldRepository.getGenericType(FieldRepository.java:85) [rt.jar:1.7.0_80]
+	at java.lang.reflect.Field.getGenericType(Field.java:237) [rt.jar:1.7.0_80]
+	at org.jboss.weld.introspector.jlr.WeldFieldImpl.of(WeldFieldImpl.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:154) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.seam.security.events.AuthorizationCheckEvent from [Module "deployment.lpd_web2.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	at java.lang.Class.forName0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.forName(Class.java:278) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) [rt.jar:1.7.0_80]
+	... 29 more
+
+08:14:06,517 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.solder.core.VersionLoggerUtil from being installed as bean due to @Veto annotation
+08:14:06,653 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-1) WELD-000119 Not generating any bean definitions from org.jboss.logging.Log4jLogger because of underlying class loading error
+08:14:06,660 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-1) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Log4jLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: org/apache/log4j/Priority
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.apache.log4j.Priority from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:14:06,681 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.transaction.UTTransaction from being installed as bean due to @Veto annotation
+08:14:06,724 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.transaction.SeSynchronizations from being installed as bean due to @Veto annotation
+08:14:06,732 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.transaction.CMTTransaction from being installed as bean due to @Veto annotation
+08:14:06,736 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.transaction.EntityTransaction from being installed as bean due to @Veto annotation
+08:14:06,756 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.persistence.hibernate.HibernateManagedSessionExtensionImpl from being installed as bean due to @Veto annotation
+08:14:06,759 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.solder.resourceLoader.ResourceProvider from being installed as bean due to @Veto annotation
+08:14:06,764 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.transaction.NoTransaction from being installed as bean due to @Veto annotation
+08:14:06,792 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.transaction.HibernateTransaction from being installed as bean due to @Veto annotation
+08:14:06,795 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-1) WELD-000119 Not generating any bean definitions from org.jboss.logging.Slf4jLogger because of underlying class loading error
+08:14:06,797 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-1) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Slf4jLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/slf4j/Logger;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.slf4j.Logger from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:14:06,800 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.persistence.HibernatePersistenceProvider from being installed as bean due to @Veto annotation
+08:14:06,850 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-1) WELD-000119 Not generating any bean definitions from org.jboss.logging.Slf4jLocationAwareLogger because of underlying class loading error
+08:14:06,856 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-1) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Slf4jLocationAwareLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/slf4j/spi/LocationAwareLogger;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.slf4j.spi.LocationAwareLogger from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:14:07,020 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.solder.core.VersionLoggerUtil from being installed as bean due to @Veto annotation
+08:14:07,021 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.faces.validation.InputElement from being installed as bean due to @Veto annotation
+08:14:07,037 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-1) WELD-000119 Not generating any bean definitions from org.jboss.seam.faces.view.config.SecurityPhaseListener because of underlying class loading error
+08:14:07,041 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-1) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.seam.faces.view.config.SecurityPhaseListener
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.TypeNotPresentException: Type org.jboss.seam.security.events.AuthorizationCheckEvent not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.repository.FieldRepository.getGenericType(FieldRepository.java:85) [rt.jar:1.7.0_80]
+	at java.lang.reflect.Field.getGenericType(Field.java:237) [rt.jar:1.7.0_80]
+	at org.jboss.weld.introspector.jlr.WeldFieldImpl.of(WeldFieldImpl.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:154) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.seam.security.events.AuthorizationCheckEvent from [Module "deployment.lpd_web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	at java.lang.Class.forName0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.forName(Class.java:278) [rt.jar:1.7.0_80]
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) [rt.jar:1.7.0_80]
+	... 29 more
+
+08:14:07,080 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.logging.Log4jLogger because of underlying class loading error
+08:14:07,089 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Log4jLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: org/apache/log4j/Priority
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.apache.log4j.Priority from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:14:07,210 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.solder.resourceLoader.ResourceProvider from being installed as bean due to @Veto annotation
+08:14:07,260 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.logging.Slf4jLogger because of underlying class loading error
+08:14:07,267 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Slf4jLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/slf4j/Logger;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.slf4j.Logger from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:14:07,287 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.transaction.UTTransaction from being installed as bean due to @Veto annotation
+08:14:07,320 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) WELD-000119 Not generating any bean definitions from org.jboss.logging.Slf4jLocationAwareLogger because of underlying class loading error
+08:14:07,336 INFO  [org.jboss.weld.ClassLoading] (MSC service thread 1-3) catching: org.jboss.weld.resources.spi.ResourceLoadingException: Error loading class org.jboss.logging.Slf4jLocationAwareLogger
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:152) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:86) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployer.addClasses(BeanDeployer.java:115) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:171) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:336) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.as.weld.WeldContainer.start(WeldContainer.java:82) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.as.weld.services.WeldService.start(WeldService.java:76) [jboss-as-weld-7.1.0.Final.jar:7.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_80]
+Caused by: java.lang.NoClassDefFoundError: Lorg/slf4j/spi/LocationAwareLogger;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_80]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2509) [rt.jar:1.7.0_80]
+	at java.lang.Class.getDeclaredFields(Class.java:1819) [rt.jar:1.7.0_80]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:102) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections$4.work(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAndWrap(SecureReflectionAccess.java:63) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.util.reflection.SecureReflections.getDeclaredFields(SecureReflections.java:99) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.<init>(WeldClassImpl.java:153) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.introspector.jlr.WeldClassImpl.of(WeldClassImpl.java:118) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:49) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at org.jboss.weld.resources.ClassTransformer$TransformTypeToWeldClass.apply(ClassTransformer.java:40) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingValueReference.compute(ComputingConcurrentHashMap.java:355)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.compute(ComputingConcurrentHashMap.java:184)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment.getOrCompute(ComputingConcurrentHashMap.java:153)
+	at com.google.common.collect.ComputingConcurrentHashMap.getOrCompute(ComputingConcurrentHashMap.java:69)
+	at com.google.common.collect.ComputingConcurrentHashMap$ComputingMapAdapter.get(ComputingConcurrentHashMap.java:393)
+	at org.jboss.weld.resources.ClassTransformer.loadClass(ClassTransformer.java:149) [weld-core-1.1.5.AS71.Final.jar:2012-02-10 15:31]
+	... 11 more
+Caused by: java.lang.ClassNotFoundException: org.slf4j.spi.LocationAwareLogger from [Module "org.jboss.logging:main" from local module loader @5576c3c4 (roots: E:\lpd_folder\jboss\modules)]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 29 more
+
+08:14:07,351 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.transaction.SeSynchronizations from being installed as bean due to @Veto annotation
+08:14:07,380 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.transaction.CMTTransaction from being installed as bean due to @Veto annotation
+08:14:07,401 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.transaction.EntityTransaction from being installed as bean due to @Veto annotation
+08:14:07,437 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.persistence.hibernate.HibernateManagedSessionExtensionImpl from being installed as bean due to @Veto annotation
+08:14:07,451 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.MgmtResponsible from being installed as bean due to @Veto annotation
+08:14:07,457 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.transaction.NoTransaction from being installed as bean due to @Veto annotation
+08:14:07,477 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing interface eu.europa.ec.dg_env.lpd.model.package-info from being installed as bean due to @Veto annotation
+08:14:07,494 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.transaction.HibernateTransaction from being installed as bean due to @Veto annotation
+08:14:07,498 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.Purchase from being installed as bean due to @Veto annotation
+08:14:07,501 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.persistence.HibernatePersistenceProvider from being installed as bean due to @Veto annotation
+08:14:07,504 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing interface eu.europa.ec.dg_env.lpd.model.shapefile_import.package-info from being installed as bean due to @Veto annotation
+08:14:07,531 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.MgmtResponsible from being installed as bean due to @Veto annotation
+08:14:07,532 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ShapefileRowPK from being installed as bean due to @Veto annotation
+08:14:07,536 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing interface eu.europa.ec.dg_env.lpd.model.package-info from being installed as bean due to @Veto annotation
+08:14:07,542 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.Purchase from being installed as bean due to @Veto annotation
+08:14:07,546 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing interface eu.europa.ec.dg_env.lpd.model.shapefile_import.package-info from being installed as bean due to @Veto annotation
+08:14:07,549 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ShapefileRowPK from being installed as bean due to @Veto annotation
+08:14:07,553 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.Shapefile from being installed as bean due to @Veto annotation
+08:14:07,558 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.publication.Responsible from being installed as bean due to @Veto annotation
+08:14:07,560 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing interface eu.europa.ec.dg_env.lpd.model.QualityAssuranceStatus from being installed as bean due to @Veto annotation
+08:14:07,562 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing interface eu.europa.ec.dg_env.lpd.model.clause.package-info from being installed as bean due to @Veto annotation
+08:14:07,567 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.Parcel from being installed as bean due to @Veto annotation
+08:14:07,571 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ShapefileRow from being installed as bean due to @Veto annotation
+08:14:07,573 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.clause.ClauseLocation from being installed as bean due to @Veto annotation
+08:14:07,577 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.security.BeneficiaryAccess from being installed as bean due to @Veto annotation
+08:14:07,579 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.Shapefile from being installed as bean due to @Veto annotation
+08:14:07,581 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing interface eu.europa.ec.dg_env.lpd.model.project.package-info from being installed as bean due to @Veto annotation
+08:14:07,585 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing interface eu.europa.ec.dg_env.lpd.model.QualityAssuranceStatus from being installed as bean due to @Veto annotation
+08:14:07,585 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.project.LIFEProjectNumber from being installed as bean due to @Veto annotation
+08:14:07,588 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.ref.LegalStatus from being installed as bean due to @Veto annotation
+08:14:07,593 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing interface eu.europa.ec.dg_env.lpd.model.clause.package-info from being installed as bean due to @Veto annotation
+08:14:07,593 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ImportBatch from being installed as bean due to @Veto annotation
+08:14:07,596 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.SpatialData from being installed as bean due to @Veto annotation
+08:14:07,599 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.ParcelFollowup from being installed as bean due to @Veto annotation
+08:14:07,603 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing interface eu.europa.ec.dg_env.lpd.model.security.package-info from being installed as bean due to @Veto annotation
+08:14:07,606 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.Owner from being installed as bean due to @Veto annotation
+08:14:07,611 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ShapefileRowField from being installed as bean due to @Veto annotation
+08:14:07,614 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.security.BeneficiaryAccess$BeneficiaryAccessPK from being installed as bean due to @Veto annotation
+08:14:07,617 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.publication.ControlledPublication from being installed as bean due to @Veto annotation
+08:14:07,620 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.DocumentationFile from being installed as bean due to @Veto annotation
+08:14:07,621 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.Parcel from being installed as bean due to @Veto annotation
+08:14:07,625 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.clause.Clause from being installed as bean due to @Veto annotation
+08:14:07,626 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ShapefileRow from being installed as bean due to @Veto annotation
+08:14:07,629 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.clause.ClauseLocation from being installed as bean due to @Veto annotation
+08:14:07,632 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.security.BeneficiaryAccess from being installed as bean due to @Veto annotation
+08:14:07,632 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.LIFEProject from being installed as bean due to @Veto annotation
+08:14:07,636 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing interface eu.europa.ec.dg_env.lpd.model.project.package-info from being installed as bean due to @Veto annotation
+08:14:07,636 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.NutsCountry from being installed as bean due to @Veto annotation
+08:14:07,638 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.project.LIFEProjectNumber from being installed as bean due to @Veto annotation
+08:14:07,639 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ShapefilePK from being installed as bean due to @Veto annotation
+08:14:07,641 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.ref.LegalStatus from being installed as bean due to @Veto annotation
+08:14:07,642 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ShapefileRowFieldPK from being installed as bean due to @Veto annotation
+08:14:07,648 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing interface eu.europa.ec.dg_env.lpd.model.publication.package-info from being installed as bean due to @Veto annotation
+08:14:07,648 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ImportBatch from being installed as bean due to @Veto annotation
+08:14:07,650 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing interface eu.europa.ec.dg_env.lpd.model.ref.package-info from being installed as bean due to @Veto annotation
+08:14:07,653 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.SpatialData from being installed as bean due to @Veto annotation
+08:14:07,653 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class eu.europa.ec.dg_env.lpd.model.Coordinate from being installed as bean due to @Veto annotation
+08:14:07,656 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.ParcelFollowup from being installed as bean due to @Veto annotation
+08:14:07,659 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing interface eu.europa.ec.dg_env.lpd.model.security.package-info from being installed as bean due to @Veto annotation
+08:14:07,663 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.Owner from being installed as bean due to @Veto annotation
+08:14:07,665 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ShapefileRowField from being installed as bean due to @Veto annotation
+08:14:07,669 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.security.BeneficiaryAccess$BeneficiaryAccessPK from being installed as bean due to @Veto annotation
+08:14:07,672 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.publication.ControlledPublication from being installed as bean due to @Veto annotation
+08:14:08,579 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.DocumentationFile from being installed as bean due to @Veto annotation
+08:14:08,615 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-1) Preventing class org.jboss.seam.international.locale.LocaleConfiguration from being installed as bean due to @Veto annotation
+08:14:08,614 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.clause.Clause from being installed as bean due to @Veto annotation
+08:14:08,675 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.LIFEProject from being installed as bean due to @Veto annotation
+08:14:08,693 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.NutsCountry from being installed as bean due to @Veto annotation
+08:14:08,696 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ShapefilePK from being installed as bean due to @Veto annotation
+08:14:08,711 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.shapefile_import.ShapefileRowFieldPK from being installed as bean due to @Veto annotation
+08:14:08,727 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing interface eu.europa.ec.dg_env.lpd.model.publication.package-info from being installed as bean due to @Veto annotation
+08:14:08,730 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing interface eu.europa.ec.dg_env.lpd.model.ref.package-info from being installed as bean due to @Veto annotation
+08:14:08,733 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class eu.europa.ec.dg_env.lpd.model.Coordinate from being installed as bean due to @Veto annotation
+08:14:08,790 INFO  [org.jboss.seam.international.status.TypedStatusMessageBundleExtension] (MSC service thread 1-1) Add @MessageBundle to org.jboss.seam.solder.reflection.annotated.AnnotatedTypeBuilder.messages injection point for the type: org.jboss.seam.solder.support.SolderMessages
+08:14:08,825 INFO  [org.jboss.seam.international.status.TypedStatusMessageBundleExtension] (MSC service thread 1-1) Add @MessageBundle to org.jboss.seam.solder.reflection.annotated.AnnotationBuilder.messages injection point for the type: org.jboss.seam.solder.support.SolderMessages
+08:14:08,891 INFO  [org.jboss.seam.solder.core.CoreExtension] (MSC service thread 1-3) Preventing class org.jboss.seam.international.locale.LocaleConfiguration from being installed as bean due to @Veto annotation
+08:14:09,091 INFO  [org.jboss.seam.international.status.TypedStatusMessageBundleExtension] (MSC service thread 1-3) Add @MessageBundle to org.jboss.seam.solder.reflection.annotated.AnnotatedTypeBuilder.messages injection point for the type: org.jboss.seam.solder.support.SolderMessages
+08:14:09,143 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-4) Initializing Mojarra 2.1.5 (SNAPSHOT 20111202) for context '/lpd_web'
+08:14:09,167 INFO  [org.jboss.seam.international.status.TypedStatusMessageBundleExtension] (MSC service thread 1-3) Add @MessageBundle to org.jboss.seam.solder.reflection.annotated.AnnotationBuilder.messages injection point for the type: org.jboss.seam.solder.support.SolderMessages
+08:14:09,489 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-7) Initializing Mojarra 2.1.5 (SNAPSHOT 20111202) for context '/lpd_web2'
+08:14:11,116 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-4) Running on PrimeFaces 4.0
+08:14:11,205 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-7) Running on PrimeFaces 4.0
+08:14:11,253 INFO  [org.jboss.web] (MSC service thread 1-4) JBAS018210: Registering web context: /lpd_web
+08:14:11,260 INFO  [org.jboss.web] (MSC service thread 1-7) JBAS018210: Registering web context: /lpd_web2
+08:14:11,333 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "lpd_web2.war"
+08:14:11,337 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "lpd_archive_provider2.war"
+08:14:11,338 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "lpd_web.war"
+08:14:11,339 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "lpd_archive_provider.war"
