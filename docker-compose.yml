@@ -1,0 +1,15 @@
+version: '2'
+services:
+        jboss_server:
+                build: 
+                        context: .
+                        args:
+                                test1: 12345
+                container_name: jboss_server
+                ports:
+                        - '8080:8080'
+                        - '9990:9990'
+                environment:
+                        - JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+                        - JBOSS_HOME=/opt/jboss/jboss-as-7.1.1.Final
+
