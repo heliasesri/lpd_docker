@@ -16,18 +16,12 @@ RUN apt-get -y update && \
 RUN groupadd -r jboss -g 1000 && useradd -u 1000 -r -g jboss -m -d /opt/jboss -s /sbin/nologin -c "JBoss user" jboss
 
 # Set the working directory to jboss' user home directory
-
-#ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
-#ENV JBOSS_HOME /opt/jboss/jboss-as-7.1.1.Final
-
-#Get JBoss 7.1.1 from Jboss.org and unzip it
-
 RUN wget http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.zip -P /tmp
 WORKDIR /opt/jboss
 RUN unzip /tmp/jboss-as-7.1.1.Final.zip && \
     rm -rf /opt/jboss/jboss-as-7.1.1.Final/jboss-modules.jar
-COPY jboss-modules-1.1.5.GA.jar \
-     JbossWindowsToDocker/jboss/* \
+COPY jboss/jboss-modules-1.1.5.GA.jar \
+     jboss/* \
      /opt/jboss/jboss-as-7.1.1.Final/
 
 # Expose the ports we're interested in, 8080 for webinterface and 9990 for Admin Console.
