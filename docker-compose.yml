@@ -1,8 +1,8 @@
 version='2'
 
 services:
-  jboss_server:
-    image: lpd
+  lpd_server:
+    image: eeacms/lpd
     environment:
     - SCK_PRIVATE_EXPORT_TEMPLATE=E:/lpd_folder/templates/reporting/export.xlsx
     - SCK_PUBLIC_EXPORT_TEMPLATE=E:/lpd_folder/templates/reporting/export.xls

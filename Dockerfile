@@ -1,7 +1,7 @@
 FROM openjdk:7
+
 MAINTAINER Helias B
 
-# Execute system update
 RUN apt-get -y update && \
     apt-get -y install pwgen \
     wget \
@@ -17,6 +17,8 @@ RUN groupadd -r jboss -g 1000 && useradd -u 1000 -r -g jboss -m -d /opt/jboss -s
 
 # Set the working directory to jboss' user home directory
 RUN wget http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.zip -P /tmp
+
+COPY entrypoint.sh /
 WORKDIR /opt/jboss
 RUN unzip /tmp/jboss-as-7.1.1.Final.zip && \
     rm -rf /opt/jboss/jboss-as-7.1.1.Final/jboss-modules.jar
@@ -24,12 +26,11 @@ COPY jboss/jboss-modules-1.1.5.GA.jar \
      jboss/* \
      /opt/jboss/jboss-as-7.1.1.Final/
 
-# Expose the ports we're interested in, 8080 for webinterface and 9990 for Admin Console.
 EXPOSE 8080 9990 
 
-# Set the default command to run on boot
-# # This will boot JBoss in the standalone mode and bind to all interface
+#please enable and test
+#USER jboss
 
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 CMD ["/opt/jboss/jboss-as-7.1.1.Final/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement 0.0.0.0"]
 
