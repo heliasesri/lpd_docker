@@ -15,7 +15,6 @@ RUN apt-get -y update && \
 # making it easier to use volumes (no permission issues)
 RUN groupadd -r jboss -g 1000 && useradd -u 1000 -r -g jboss -m -d /opt/jboss -s /sbin/nologin -c "JBoss user" jboss
 
-# Set the working directory to jboss' user home directory
 RUN wget http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.zip -P /tmp
 
 COPY entrypoint.sh /
