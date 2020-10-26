@@ -1,2 +1,3 @@
-# lpd_docker
+# eea.docker.lpd
+
 LPD application
