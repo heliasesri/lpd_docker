@@ -1,5 +1,4 @@
 #!/bin/bash
-
 rm -rf /opt/jboss/jboss-as-7.1.1.Final/standalone/configuration/standalone_xml_history/current
 
 sed -i 's/jdbc:sqlserver:\/\/LIONFISH;databaseName=lpd_production;integratedSecurity=true/$connection-url/g' /opt/jboss/jboss-as-7.1.1.Final/standalone/configuration/standalone.xml
@@ -45,3 +44,4 @@ echo LPD_PRINT_SERVICE=$LPD_PRINT_SERVICE >> /opt/jboss/jboss-as-7.1.1.Final/sta
 echo LPD_EXTRACT_SPATIAL_DATA_SERVICE=$LPD_EXTRACT_SPATIAL_DATA_SERVICE >> /opt/jboss/jboss-as-7.1.1.Final/standalone/deployments/lpd_web.properties
 echo LPD_SEARCH_LAYER=$LPD_SEARCH_LAYER >> /opt/jboss/jboss-as-7.1.1.Final/standalone/deployments/lpd_web.properties
 
+exec "$@" 

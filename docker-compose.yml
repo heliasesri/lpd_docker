@@ -48,9 +48,16 @@ services:
     - username=dbuser
     - password=dbpass
     - JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
-    - JBOSS_HOME=/opt/jboss/jboss-as-7.1.1.Final                      
-    container_name:lpd-server
+    - JBOSS_HOME=/opt/jboss/jboss-as-7.1.1.Final
+    
+    container_name: lpd-server
+    volumes:
+    - jboss_deployments:/opt/jboss/jboss-as-7.1.1.Final/standalone
     ports:
     - '8080:8080'
     - '9990:9990'
+
+volumes:
+    jboss_deployments:
+       driver: local
 
