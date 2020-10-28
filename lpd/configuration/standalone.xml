@@ -99,11 +99,11 @@
         <subsystem xmlns="urn:jboss:domain:datasources:1.0">
             <datasources>
                 <datasource jndi-name="java:jboss/datasources/lpd-model" pool-name="lpd-model" enabled="true" use-java-context="true">
-                    <connection-url>jdbc:sqlserver://LIONFISH;databaseName=lpd_production;integratedSecurity=true</connection-url>
+                    <connection-url>DBCONNECTION_URL</connection-url>
                     <driver>sqlserver</driver>
                     <security>
-                        <user-name>dbuser</user-name>
-                        <password>dbpass</password>
+                        <user-name>DBCONNECTION_USERNAME</user-name>
+                        <password>DBCONNECTION_PASSWORD</password>
                     </security>
                 </datasource>
                 <drivers>

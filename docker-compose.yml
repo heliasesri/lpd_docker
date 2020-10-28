@@ -43,10 +43,10 @@ services:
     - LPD_EXTRACT_SPATIAL_DATA_SERVICE=https://lpddevelop.discomap.eea.europa.eu/arcgis/rest/services/LPD/ExtractSpatialDataTool/GPServer/Extract%20data%20on%20expression
     - LPD_SEARCH_LAYER=https://lpddevelop.discomap.eea.europa.eu/arcgis/rest/services/LPD/beneficiaryLayer_production/FeatureServer/0
      #use \ if connection url contain /
-    - connection-url=jdbc:sqlserver:\/\/LIONFISH;databaseName=lpd_production;integratedSecurity=true
+    - DBCONNECTION_URL=jdbc:sqlserver:\/\/LIONFISH;databaseName=lpd_production;integratedSecurity=true
       #driver=sqlserver
-    - username=dbuser
-    - password=dbpass
+    - DBCONNECTION_USERNAME=dbuser
+    - DBCONNECTION_PASSWORD=dbpass
     - JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
     - JBOSS_HOME=/opt/jboss/jboss-as-7.1.1.Final
     
